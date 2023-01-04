@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class OperacionesComponent {
 
+  valor1!: number;
+  valor2!: number;
+  operacion: string = "ninguna";
+  resultado!: number;  
 }
